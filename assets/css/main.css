@@ -2336,6 +2336,9 @@
 		}
 
 			.image.rounded img {
+				width: 200px;
+				height: 200px;
+				object-fit: cover;
 				border: solid 0.5em rgba(144, 144, 144, 0.25);
 				border-radius: 100%;
 			}
