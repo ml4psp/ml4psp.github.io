@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <!--
 	Spatial by TEMPLATED
 	templated.co @templatedco
@@ -8,184 +8,243 @@
 <html>
     <head>
         <title>ML4PSP</title>
-            <meta charset="utf-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="landing">
-    <!-- Header -->
-    <header id="header" class="alt">
-        <!--
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body class="landing">
+        <!-- Header -->
+        <header id="header" class="alt">
+            <!--
         <h1><strong><a href="index.html">ML4PSP</a></strong></h1>
         -->
-        <nav id="nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="schedule.html">Schedule</a></li>
-                <li><a href="join.html">Join</a></li>
-            </ul>
-        </nav>
-    </header>
-    <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+        </header>
+        <a href="#menu" class="navPanelToggle"
+            ><span class="fa fa-bars"></span
+        ></a>
 
-    <!-- Banner -->
-    <section id="banner">
-        <h2>Machine Learning for Planetary Science and Space Physics</h2>
-	    <!--Comment for new organizers, if you want a new tag line change this text.-->
-        <p>ML4PSP is a monthly seminar series focused on intersections in <br /> machine learning, planetary science, and space physics. </p>
-    </section>
+        <!-- Banner -->
+        <section id="banner">
+            <h2>Machine Learning for Planetary Science and Space Physics</h2>
+            <!--Comment for new organizers, if you want a new tag line change this text.-->
+            <p>
+                ML4PSP is a monthly seminar series focused on intersections in
+                <br />
+                machine learning, planetary science, and space physics.
+            </p>
+        </section>
 
-    <!-- One -->
-    <section id="one" class="wrapper style1">
-        <div class="container 75%">
-            <div class="row 200%">
-                <div class="6u 12u$(medium)">
-                    <header class="major">
-                        <h2>Purpose</h2>
-                        <p>Building connections to advance applications</p>
-                    </header>
-                </div>
-                <div class="6u$ 12u$(medium)">
-                <p>Machine learning (ML), and other large-data analysis techniques, have become essential tools for analyzing the ever-increasing sizes of scientific data returned from planetary missions. In addition, ML methods have demonstrated potential to assist in mission planning and operations. Planetary science and space physics have often been fields defined by sparse data concerns and extreme environments. These aspects provide a uniquely challenging, and rewarding field to apply data science methods.</p>
-                                
-                <p>This seminar series aims to bring together researchers in planetary science, space physics, data science, and other domain applications of data science. We welcome presentations from a broad array of fields including: Earth based and planetary science applications, educational efforts, and basic data science research.</p>
+        <!-- One -->
+        <section id="one" class="wrapper style1">
+            <div class="container 75%">
+                <div class="row 200%">
+                    <div class="6u 12u$(medium)">
+                        <header class="major">
+                            <h2>Purpose</h2>
+                            <p>Building connections to advance applications</p>
+                        </header>
+                    </div>
+                    <div class="6u$ 12u$(medium)">
+                        <p>
+                            Machine learning (ML), and other large-data analysis
+                            techniques, have become essential tools for
+                            analyzing the ever-increasing sizes of scientific
+                            data returned from planetary missions. In addition,
+                            ML methods have demonstrated potential to assist in
+                            mission planning and operations. Planetary science
+                            and space physics have often been fields defined by
+                            sparse data concerns and extreme environments. These
+                            aspects provide a uniquely challenging, and
+                            rewarding field to apply data science methods.
+                        </p>
+
+                        <p>
+                            This seminar series aims to bring together
+                            researchers in planetary science, space physics,
+                            data science, and other domain applications of data
+                            science. We welcome presentations from a broad array
+                            of fields including: Earth based and planetary
+                            science applications, educational efforts, and basic
+                            data science research.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Two -->
-    <section id="two" class="wrapper style2 special">
-        <div class="container">
-            <header class="major">
-                <h2>2026 Seminar Series</h2>
-	    </header>
-	
-	    <!--Comment for new organizers, this is the format below that you can use to add two speakers.--> 
-	    <!-- <p> Please check back here for updates or join our <a href="join.html"> listserv</a>. <p> -->
-	    <h3>April 21, 2026</h3>
-	    <p> Tuesday at 9 AM US Pacific </p>
-	    <div class="container">
-                <!-- <div class="6u 12u$(xsmall)"> -->
-                        <div class="image fit captioned">
-			 <h3> Jichao Feng</br>Northern Illinois University</h3>
-			 <p>Planetary-Scale Similarity Search for Mars Orbital Imagery with Foundation-Model Embeddings</p>
-			 <p>Mars orbital archives now contain enough imagery that finding morphologically similar features is bottlenecked by search, not data. We present a planetary-scale similarity search system built on foundation-model embeddings over the full CTX Murray global mosaic (~26.9M indexed locations). A Vision Transformer pretrained via self-supervised learning on millions of CTX patches produces embeddings that capture surface texture and landform semantics without any labels. Deployed as a quantized vector index on a single server, the system supports sub-second instance-level retrieval ("find terrains like this"), geo-filtered search within regions of interest, and interactive relevance feedback for iterative refinement. The system is publicly accessible at findmars.space.</p>
+        <!-- Two -->
+        <section id="two" class="wrapper style2 special">
+            <div class="container">
+                <header class="major">
+                    <h2>2026 Seminar Series</h2>
+                </header>
+
+                <div id="upcoming-speaker-index"></div>
+            </div>
+            <p>
+                Previous seminars with <a href="schedule.html">abstracts</a> can
+                be found on
+                <a
+                    href="https://www.youtube.com/channel/UCyS8UU1a6K0NM_lSN7ykAnA/playlists"
+                    >YouTube</a
+                >.
+            </p>
+        </section>
+
+        <!-- Three -->
+        <section id="three" class="wrapper style3 special">
+            <div class="container">
+                <header class="major">
+                    <h2>Join</h2>
+                    <p>
+                        To receive invitations to our monthly series or to
+                        recommend speakers, please fill out our community form.
+                    </p>
+                </header>
+                <ul class="actions">
+                    <li>
+                        <a href="join.html" class="button special big"
+                            >Fill Out Form</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Four -->
+        <section id="four" class="wrapper style1">
+            <div class="container">
+                <header class="major special">
+                    <h3>Organizers</h3>
+                </header>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <div class="image rounded">
+                            <img src="images/DKProfile.jpg" alt="" />
                         </div>
-            </div>
-	</div>
-        <p>Previous seminars with <a href="schedule.html">abstracts</a> can be found on <a href="https://www.youtube.com/channel/UCyS8UU1a6K0NM_lSN7ykAnA/playlists">YouTube</a>. </p>
-    </section>
-
-    <!-- Three -->
-    <section id="three" class="wrapper style3 special">
-        <div class="container">
-            <header class="major">
-                <h2>Join</h2>
-                    <p>To receive invitations to our monthly series or to recommend speakers, please fill out our community form. </p>
-            </header>
-            <ul class="actions">
-                <li><a href="join.html" class="button special big">Fill Out Form</a></li>
-            </ul>
-        </div>
-    </section>
-    
-    <!-- Four -->
-    <section id="four" class="wrapper style1">
-        <div class="container">
-            <header class="major special">
-                <h3>Organizers</h3>
-            </header>
-            <div class="feature-grid">
-                <div class="feature">
-                    <div class="image rounded"><img src="images/DKProfile.jpg" alt="" /></div>
                         <div class="content">
                             <header>
                                 <h4>Dona Kuruppuaratchi</h4>
                                 <p>NASA Goddard/UMD, College Park</p>
                             </header>
                         </div>
-                </div>
-                <div class="feature">
-                    <div class="image rounded"><img src="images/RSProfile.jpg" alt="" /></div>
+                    </div>
+                    <div class="feature">
+                        <div class="image rounded">
+                            <img src="images/RSProfile.jpg" alt="" />
+                        </div>
                         <div class="content">
                             <header>
                                 <h4>Ramanakumar Sankar</h4>
                                 <p>University of California, Berkeley</p>
                             </header>
                         </div>
-                </div>
-                <div class="feature">
-                    <div class="image rounded"><img src="images/IVProfile.jpg" alt="" /></div>
+                    </div>
+                    <div class="feature">
+                        <div class="image rounded">
+                            <img src="images/IVProfile.jpg" alt="" />
+                        </div>
                         <div class="content">
                             <header>
                                 <h4>Indhu Varatharajan</h4>
                                 <p>Stony Brook University</p>
                             </header>
                         </div>
-                </div>
-                <div class="feature">
-                            <div class="image rounded"><img src="images/ASProfile.jpeg" alt="" /></div>
-                                <div class="content">
-                                    <header>
-                                        <h4>Andy Smith</h4>
-                                        <p>University College London</p>
-                                    </header>
-                                </div>
+                    </div>
+                    <div class="feature">
+                        <div class="image rounded">
+                            <img src="images/ASProfile.jpeg" alt="" />
+                        </div>
+                        <div class="content">
+                            <header>
+                                <h4>Andy Smith</h4>
+                                <p>University College London</p>
+                            </header>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
         <!-- Five -->
         <section id="five" class="wrapper style1">
-        <div class="container">
-            <header class="major special">
-                <h3>Past Organizers</h3>
-            </header>
-            
-            <div class="feature-grid">
-                <div class="feature">
+            <div class="container">
+                <header class="major special">
+                    <h3>Past Organizers</h3>
+                </header>
+
+                <div class="feature-grid">
+                    <div class="feature">
                         <div class="content">
                             <header>
-                                <h4><a href="https://abbyazari.github.io/">Abigail Azari</a></h4>
-                                <p>Space Sciences Lab, University of California Berkeley</p>
+                                <h4>
+                                    <a href="https://abbyazari.github.io/"
+                                        >Abigail Azari</a
+                                    >
+                                </h4>
+                                <p>
+                                    Space Sciences Lab, University of California
+                                    Berkeley
+                                </p>
                             </header>
                         </div>
-                </div>
-                <div class="feature">
-                                <div class="content">
-                                    <header>
-                                        <h4><a href="https://www.dias.ie/2019/11/27/professor-caitriona-jackman/">Caitriona Jackman</a></h4>
-                                        <p>Dublin Institute for Advanced Studies</p>
-                                    </header>
-                                </div>
+                    </div>
+                    <div class="feature">
+                        <div class="content">
+                            <header>
+                                <h4>
+                                    <a
+                                        href="https://www.dias.ie/2019/11/27/professor-caitriona-jackman/"
+                                        >Caitriona Jackman</a
+                                    >
+                                </h4>
+                                <p>Dublin Institute for Advanced Studies</p>
+                            </header>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
-    
 
-    <!-- Footer -->
-    <footer id="footer">
-        <div class="container">
-            <ul class="icons">
-                <li><a href="https://www.youtube.com/channel/UCyS8UU1a6K0NM_lSN7ykAnA/playlists" class="icon fa-youtube"></a></li>
-                <!--<li><a href="#" class="icon fa-twitter"></a></li>-->
-                <!--<li><a href="#" class="icon fa-instagram"></a></li>-->
-            </ul>
-            <ul class="copyright">
-                <li>&copy; ML4PSP Organizers </li>
-                <!--<li>Design: <a href="https://templated.co/spatial"> TEMPLATED </a></li> -->
-		<li>Design: TEMPLATED </li>
-                <li>Image: <a href="https://www.nasa.gov/image-feature/the-red-planets-layered-history">NASA/JPL-Caltech/UA</a></li>
-            </ul>
-        </div>
-    </footer>
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="container">
+                <ul class="icons">
+                    <li>
+                        <a
+                            href="https://www.youtube.com/channel/UCyS8UU1a6K0NM_lSN7ykAnA/playlists"
+                            class="icon fa-youtube"
+                        ></a>
+                    </li>
+                    <!--<li><a href="#" class="icon fa-twitter"></a></li>-->
+                    <!--<li><a href="#" class="icon fa-instagram"></a></li>-->
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; ML4PSP Organizers</li>
+                    <!--<li>Design: <a href="https://templated.co/spatial"> TEMPLATED </a></li> -->
+                    <li>Design: TEMPLATED</li>
+                    <li>
+                        Image:
+                        <a
+                            href="https://www.nasa.gov/image-feature/the-red-planets-layered-history"
+                            >NASA/JPL-Caltech/UA</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </footer>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-	</body>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/speakers.js"></script>
+    </body>
 </html>
