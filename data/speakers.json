@@ -7,7 +7,7 @@
         "name": "Michael Barker",
         "institution": "NASA Goddard Space Flight Center",
         "url": null,
-        "title": "Planetary-Scale Similarity Search for Mars Orbital Imagery with Foundation-Model Embeddings",
+        "title": "Building a Foundation Model for Lunar Science and Exploration",
         "abstract": "Foundation Models (FMs) are large, general artificial intelligence (AI) models that can be applied to a range of AI and machine learning (ML) tasks. NASA's Office of the Chief Science Data Officer is creating an FM for each division in NASA's Science Mission Directorate. In this talk, I will summarize ongoing work by the Planetary Science Division to create an FM for the Moon, an exciting and timely target for such an endeavor. Recent missions have gathered a large and diverse set of multimodal datasets that inform our understanding of the Moon's interior structure, surface geology, and processes operating from the surface to the core. This initial lunar FM will serve as a basis for downstream community-developed ML models that enable tools and approaches advancing NASA's long-term lunar exploration and discovery goals."
       }
     ]
