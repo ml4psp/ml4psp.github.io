@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-06-23",
+    "sessionNote": null,
+    "speakers": [
+      {
+        "name": "Kacy Hatfield",
+        "institution": "Arizona State University",
+        "url": null,
+        "title": "[Dust] Devil is in the Details: A Planetary Science Approach to Low-Data Object Detection Using Machine Learning",
+        "abstract": "Dust devils are a key mechanism for particle uplift in Mars's atmosphere, yet their detection in rover imagery has historically relied on time-intensive manual review, a bottleneck that limits large-scale scientific analysis. In this talk, we present a machine learning pipeline for automated dust devil detection in NavCam imagery from the Perseverance, using Spirit, and Opportunity data. The approach combines a fine-tuned Faster R-CNN object detector with temporal frame differencing, a technique rooted in planetary science, to amplify faint vortex signatures that are nearly invisible in individual raw frames. Running the model across 200 sols of Perseverance data, we identified 19 unique dust devil events spanning Sols 52–174, all occurring in morning hours . We discuss the deliberate choice of an accessible, low-compute architecture as a proof of concept, the lessons learned about the importance of Mars-specific training data, and the path toward a custom model designed for the low-data, high-uncertainty domain of planetary science."
+      }
+    ]
+  },
+  {
     "date": "2026-05-26",
     "sessionNote": null,
     "speakers": [
