@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-07-21",
+    "sessionNote": null,
+    "speakers": [
+      {
+        "name": "Xin Cao",
+        "institution": "University of Science and Technology of China",
+        "url": null,
+        "title": "Neural Network-Based Ionospheric Current Prediction with Focal Loss for Imbalanced Data",
+        "abstract": "Geomagnetic substorms and storms generate intense high-latitude ionospheric currents that drive geomagnetic disturbances and geomagnetically induced currents, yet accurate prediction of Equivalent Ionospheric Currents (EICs) amplitudes remains challenging due to the strong nonlinearity of the magnetosphere-ionosphere coupling system and severe imbalance of observational data, where rare, high-impact substorm and storm events are vastly outnumbered by dominant quiet-state samples. To address this problem, we develop a neural network-based feedforward model using multi-source data including geographic coordinates, solar wind parameters and geomagnetic indices, trained on 2007–2019 observational records with EICs as the prediction target. We specifically adopt the focal loss function to optimize model training, which effectively alleviates prediction bias by down-weighting abundant trivial quiet samples and enabling the model to focus learning on scarce, critical active ionospheric events, greatly improving the model’s capability to capture short-term ionospheric current disturbances. Despite training data coverage over the North American and Greenland sectors, the optimized model achieves reliable minute-scale prediction of ionospheric active events and exhibits excellent generalization ability for global out-of-sample forecasting, allowing spatiotemporal reconstruction of ionospheric currents where direct measurements are unavailable. This work verifies the effectiveness of focal loss for imbalanced geophysical data modeling and provides a robust data-driven tool for ionospheric variation prediction and space weather research."
+      }
+    ]
+  },
+  {
     "date": "2026-06-23",
     "sessionNote": null,
     "speakers": [
