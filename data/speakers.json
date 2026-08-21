@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-08-25",
+    "sessioNote": null,
+    "speakers": [
+      {
+        "name": "Poshan Belbase",
+        "institution": "NASA Goddard Space Flight Center",
+        "url": null,
+        "title": "Exploring the Kelvin Helmholtz instabilities around Mars with advanced machine learning tools",
+        "abstract": "Mars possesses a hybrid magnetosphere with a localized crustal magnetic field strong enough to stand off the solar wind. This creates a unique interaction with the solar wind, which is actively being explored by the Mars Atmosphere and Volatile Evolution (MAVEN) spacecraft. The boundary between the solar wind and Mars' induced magnetosphere can give rise to the Kelvin–Helmholtz (KH) instability, which may further drive the loss of atmospheric plasma—contributing, over time, to the gradual erosion of the planet's atmosphere.  This study aims to identify sparse KH instabilities using machine learning tools to better understand and analyze the Martian atmospheric loss rate attributed to these instabilities, thereby exploring the potential habitability of Mars. In this project, we developed an advanced recurrent neural network (RNN) using the Sequential flow.The Sequential flow is initially used to form the basic RNN, and subsequently, the Model class is utilized to manage multiple inputs.The model was initially trained on labeled magnetic field data to identify specific regions in Mars' atmosphere like dynamic induced magnetospheric (IM) boundary between the magneto sheath and the induced magnetosphere. Additionally, it aims to identify  KH instabilities occurring in the dynamic IM boundary. The model achieved an accuracy of approximately 77% in detecting the KH regions. Further on, we plan to address the scarcity of confirmed KH events at Mars by adopting a transfer learning framework: a detection model will be pre-trained on the comparatively well-sampled KH vortices observed at Earth's magnetopause, and the learned representations will then be fine-tuned and applied to identify analogous KH signatures in the Martian induced magnetosphere."
+      }
+    ]
+  },
+  {
     "date": "2026-07-21",
     "sessionNote": null,
     "speakers": [
@@ -9,8 +22,6 @@
         "url": null,
         "title": "Neural Network-Based Ionospheric Current Prediction with Focal Loss for Imbalanced Data",
         "abstract": "Geomagnetic substorms and storms generate intense high-latitude ionospheric currents that drive geomagnetic disturbances and geomagnetically induced currents, yet accurate prediction of Equivalent Ionospheric Currents (EICs) amplitudes remains challenging due to the strong nonlinearity of the magnetosphere-ionosphere coupling system and severe imbalance of observational data, where rare, high-impact substorm and storm events are vastly outnumbered by dominant quiet-state samples. To address this problem, we develop a neural network-based feedforward model using multi-source data including geographic coordinates, solar wind parameters and geomagnetic indices, trained on 2007–2019 observational records with EICs as the prediction target. We specifically adopt the focal loss function to optimize model training, which effectively alleviates prediction bias by down-weighting abundant trivial quiet samples and enabling the model to focus learning on scarce, critical active ionospheric events, greatly improving the model’s capability to capture short-term ionospheric current disturbances. Despite training data coverage over the North American and Greenland sectors, the optimized model achieves reliable minute-scale prediction of ionospheric active events and exhibits excellent generalization ability for global out-of-sample forecasting, allowing spatiotemporal reconstruction of ionospheric currents where direct measurements are unavailable. This work verifies the effectiveness of focal loss for imbalanced geophysical data modeling and provides a robust data-driven tool for ionospheric variation prediction and space weather research."
-      }
-    ]
   },
   {
     "date": "2026-06-23",
